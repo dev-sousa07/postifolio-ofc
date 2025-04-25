@@ -67,7 +67,7 @@ section > p{
 
 }
 
-section > p1{
+section > pa{
     font-size: 18px;
     font-family: Poppins2;
     color: #777777;
@@ -108,7 +108,7 @@ article#a {
   div#efeito2{
     text-align: center;
     font-size: 55px;
-    color: #777777;
+    color: #7777772d; 
     margin: 0%;
     padding: 0%;
   }
