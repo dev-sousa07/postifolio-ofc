@@ -62,11 +62,11 @@
 
 
   div.img {
-    width: 65%;
+    width: 62%;
     height: auto;
     transform: none;
     justify-content: center;
-    transform: translate(50%, -120%);
+    transform: translate(55%, -110%);
  
 
   }
@@ -79,17 +79,19 @@
 
   h1, Pa{
     margin-top: 10%;
-    margin-left: 1%;
+    margin-right: 10%;
+   
   }
+  
 
   section > p{
     font-size: 13px;
-    width: 60%;
+    width: 58%;
     text-align: left;
     align-items: center;
     font-family: Poppins2;
     color: #777777;
-    padding-right: 10%;
+    transform: translate(-12%, 0%);
 }
 
 section > pa{
