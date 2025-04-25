@@ -36,6 +36,7 @@
     margin: 10%;
     padding: 0%;
     margin-top: 40%;
+    padding-left: 10px;
   }
 
   section {
@@ -61,11 +62,11 @@
 
 
   div.img {
-    width: 60%;
+    width: 65%;
     height: auto;
     transform: none;
     justify-content: center;
-    transform: translate(80%, -120%);
+    transform: translate(50%, -100%);
  
 
   }
@@ -73,16 +74,17 @@
   img {
     width: 70%;
     height: auto;
+    margin-left: 5%;
   }
 
   h1, Pa{
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 1%;
   }
 
   section > p{
-    font-size: 15px;
-    width: 55%;
+    font-size: 11px;
+    width: 48%;
     text-align: left;
     justify-content: left;
     align-items: center;
@@ -108,7 +110,7 @@ section > pa{
   }
 
   p {
-    width: 90%;
+    width: 80%;
     font-size: 15px;
     text-align: center;
     padding-left: 23px;
