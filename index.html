@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +37,7 @@
     
 <!--Sobre Mim-->
 
-    <article id="a">
+    <article id="a" class="reveal">
       <div id="efeito">Sobre mim<h2>Sobre mim</h2></div>
       <div class="content">
         <img src="imagens/iframe2.png" alt="">
@@ -52,7 +52,7 @@
 
   <!--Projetos-->
 
-    <article id="b">
+    <article id="b" class="reveal">
       <div id="efeito">Meus Projetos<h2>Meus Projetos</h2></div>
 
       <div class="container">
@@ -117,12 +117,12 @@
 
 <!--Habilidades-->
 
-    <div id="efeito2" style="margin-top: 12%; ">Habilidades<h2>Habilidades</h2></div>
-    <div class="d-wrapper">
+    <div id="efeito2" class="reveal" style="margin-top: 12%; ">Habilidades<h2>Habilidades</h2></div>
+    <div id="d-wrapper" class="reveal">
       <article class="c">
         <h2>Hard Skills!</h2>
         <div class="tag-list">
-          <div class="inner">
+          <div class="inner" class="reveal">
             <div class="tag"><span>#</span>JavaScript</div>
             <div class="tag"><span>#</span>CSS</div>
             <div class="tag"><span>#</span>HTML5</div>
@@ -169,6 +169,24 @@
           </div>
       </div>
   </footer>
+
+
+  <script>
+  function revealOnScroll() {
+    const elements = document.querySelectorAll('.reveal');
+    const windowHeight = window.innerHeight;
+
+    elements.forEach((el) => {
+      const top = el.getBoundingClientRect().top;
+
+      if (top < windowHeight - 100) {
+        el.classList.add('active');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+</script>
 
 </body>
 </html>
