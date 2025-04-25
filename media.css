@@ -104,6 +104,10 @@ section > pa{
     font-weight: bolder
 }
 
+  article#a{
+    margin-top: 10%;
+  }
+
   .content {
     flex-direction: column;
     gap: 10px;
