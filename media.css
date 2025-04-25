@@ -140,6 +140,7 @@ section > pa{
   .item {
     width: 90%;
     height: auto;
+    margin-bottom: 10%;
   }
 
   .item > img {
