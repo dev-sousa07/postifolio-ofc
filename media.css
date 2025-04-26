@@ -1,4 +1,9 @@
 @media screen and (max-width: 767px) {
+
+  body{
+    width: 760px;
+  }
+
   header {
     padding-left: 10%;
     align-items: center;
