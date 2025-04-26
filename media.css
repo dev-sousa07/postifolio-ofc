@@ -1,9 +1,4 @@
 @media screen and (max-width: 767px) {
-
-  body{
-    width: 760px;
-  }
-
   header {
     padding-left: 10%;
     align-items: center;
@@ -194,7 +189,7 @@ section > p#pa{
     padding: 20px 0;
     position: relative;
     bottom: 0;
-    width: max-content; 
+    width: 100%; 
     box-sizing: border-box;
     padding: 20px;
 }
