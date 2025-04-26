@@ -183,6 +183,16 @@ section > p#pa{
     height: auto;
     padding: 20px;
   }
+  .footer {
+    background-color: #4e4489;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: max-content; 
+    box-sizing: border-box;
+    padding: 20px;
+}
 
   .footer-container {
     flex-direction: column;
@@ -192,5 +202,42 @@ section > p#pa{
 
   .footer-info p {
     margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    padding-left: 20%;
+  }
+
+  section {
+    font-size: 36px;
+    transform: none;
+    padding: 20px;
+  }
+
+  div.img {
+    display: none;
+  }
+
+  img {
+    width: 70%;
+    height: auto;
+  }
+
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    gap: 20px;
+  }
+
+  .item {
+    width: 100%;
+    height: auto;
+  }
+
+  .c {
+    width: 80%;
+    height: auto;
   }
 }
