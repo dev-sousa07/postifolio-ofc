@@ -2,9 +2,8 @@
 
   body{
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 32%, rgba(255, 255, 255, 1) 38%, rgba(252, 242, 255, 1) 80%);
-
   }
-
+  
   header {
     padding-left: 10%;
     align-items: center;
@@ -98,6 +97,7 @@ h2 {
   
   p#pa{
     display: block;
+    font-size: 8px;
     font-family: Poppins2;
     color: #777777;
     font-weight: bolder;
@@ -105,7 +105,7 @@ h2 {
   }
 
   section > p{
-    font-size: 13px;
+    font-size: 11px;
     width: 58%;
     margin-top: 10px;
     text-align: left;
