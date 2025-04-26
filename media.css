@@ -184,6 +184,7 @@ section > p#pa{
     padding: 20px;
   }
   .footer {
+    display: flex;
     background-color: #4e4489;
     color: white;
     padding: 20px 0;
@@ -195,6 +196,7 @@ section > p#pa{
 }
 
   .footer-container {
+    flex: auto;
     flex-direction: column;
     gap: 10px;
     text-align: center;
