@@ -50,6 +50,10 @@ h2 {
     padding: 0;
     /* transform removido */
   }
+
+  p#caixa{
+    margin-right: 5%;
+  }
   
   .container {
     display: grid;
@@ -135,6 +139,7 @@ section > pa{
   p > button {
     width: 40%;
     padding: 8px 20px;
+
   
   }
 
