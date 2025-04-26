@@ -65,11 +65,11 @@ h2 {
 
 
   div.img {
-    width: 62%;
+    width: 70%;
     height: auto;
     transform: none;
     justify-content: center;
-    transform: translate(57%, -100%);
+    transform: translate(40%, -97%);
  
 
   }
@@ -80,21 +80,30 @@ h2 {
     margin-left: 5%;
   }
 
-  h1, Pa{
+  h1{
     margin-top: 10%;
-    margin-right: 10%;
+    transform: translate(-8%, 7%);
    
   }
   
+  p#pa{
+    display: block;
+    font-size: 8px;
+    font-family: Poppins2;
+    color: #777777;
+    font-weight: bolder;
+    margin-top: 10px; 
+  }
 
   section > p{
     font-size: 11px;
     width: 58%;
+    margin-top: 10px;
     text-align: left;
     align-items: center;
     font-family: Poppins2;
     color: #777777;
-    transform: translate(-12%, 0%);
+    transform: translate(-20%, 0%);
 }
 
 section > pa{
