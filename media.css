@@ -110,7 +110,7 @@ h2 {
     transform: translate(-20%, 0%);
 }
 
-section > pa{
+section > p#pa{
     font-size: 18px;
     font-family: Poppins2;
     color: #777777;
