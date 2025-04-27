@@ -2,9 +2,8 @@
   body{
     width: 400px;
   }
-
   header {
-    padding-left: 25%;
+    padding-left: 10%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -51,7 +50,7 @@ h2 {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
-    padding-left: 5%;
+    padding: 0;
     /* transform removido */
   }
 
@@ -194,7 +193,7 @@ section > p#pa{
     padding: 20px 0;
     position: relative;
     bottom: 0;
-    width: ; 
+    width: max-content; 
     box-sizing: border-box;
     padding: 20px;
 }
